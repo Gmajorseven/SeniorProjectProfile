@@ -93,6 +93,62 @@
         </div>
     </section>
 
+    <!-- Contact Section -->
+    <section class="py-5">
+        <div class="container text-center">
+            <h3 class="section-title fade-in">Contact Us</h3>
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-6 fade-in">
+                    <div class="card card-profile p-5" style="background: rgba(255, 255, 255, 0.95);">
+                        <h5 class="mb-4">Get in Touch</h5>
+                        <div class="row g-4 text-start">
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="contact-icon me-3">
+                                        <i class="bi bi-geo-alt"></i>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 small text-muted">Location</p>
+                                        <p class="mb-0">Faculty of Industrial Technology, UBRU</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="contact-icon me-3">
+                                        <i class="bi bi-envelope"></i>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 small text-muted">Email</p>
+                                        <p class="mb-0">office.i@ubru.ac.th</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="contact-icon me-3">
+                                        <i class="bi bi-telephone"></i>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 small text-muted">Phone</p>
+                                        <p class="mb-0">+66 45 352 000</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="contact-icon me-3">
+                                        <i class="bi bi-clock"></i>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 small text-muted">Hours</p>
+                                        <p class="mb-0">Mon - Fri: 8:30 - 16:30</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer class="text-center">
         <div class="container">
