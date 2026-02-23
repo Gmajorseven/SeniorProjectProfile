@@ -83,6 +83,7 @@
                         <img src="./media/teddypic.jpeg" alt="Student Profile" class="profile-img">
                         <h4 class="h5 mb-1">นายเทิดศักดิ์ บุญศักดิ์</h4>
                         <p class="text-muted small">Student ID: 66328220103</p>
+                        <p class="text-muted small">Computer Network Engineering Student</p>
                     </div>
                 </div>
             </div>
