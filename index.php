@@ -62,7 +62,7 @@
                 Ubon Ratchathani Rajabhat University</p>
 
             <div class="d-flex justify-content-center gap-3">
-                <a href="#" class="btn btn-primary-custom">
+                <a href="https://github.com/Gmajorseven/docker-lnd-thunderhub-setup" class="btn btn-primary-custom">
                     <i class="bi bi-github me-2"></i> GitHub Repository
                 </a>
                 <a href="#" class="btn btn-outline-danger-custom">
