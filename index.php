@@ -67,8 +67,7 @@
                 <img src="./media/logo-Rajabhat.png" alt="UBRU Logo" style="height: 80px;">
                 <img src="./media/CNE.png" alt="CNE Logo" style="height: 80px;">
             </div>
-            <h1 class="project-title-en">SIMULATION A LIGHTNING NETWORK ENVIRONMENT TO STUDY PAYMENT ROUTING AND FRAUD
-                PREVENTION MECHANISMS</h1>
+            <h1 class="project-title-en">A Simulation of the Lightning Network Environment for the Study of Payment Routing and Fraud Prevention</h1>
             <h2 class="project-title-th">
                 การจำลองสภาพแวดล้อมไลท์นิงเน็ตเวิร์คเพื่อศึกษาเส้นทางการชำระเงินและการป้องกันการทุจริต</h2>
             <p class="lead text-muted mb-4">Computer Network Engineering Program, Faculty of Industrial Technology,
