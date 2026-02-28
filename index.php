@@ -32,10 +32,15 @@
                 <img src="./media/CNE.png" alt="CNE Logo" height="40" class="me-2">
                 <span class="fw-bold">CNE</span>
             </a>
-            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <div class="d-flex align-items-center ms-auto">
+                <button class="btn btn-link nav-link px-2 me-2" id="theme-toggle" title="Toggle theme">
+                    <i class="bi bi-sun-fill" id="theme-icon"></i>
+                </button>
+                <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
@@ -48,12 +53,7 @@
                         <a class="nav-link px-3" href="#advisors">Advisors</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-3 text-primary-color fw-bold" href="#contact">Contact</a>
-                    </li>
-                    <li class="nav-item ps-lg-3">
-                        <button class="btn btn-link nav-link px-2" id="theme-toggle" title="Toggle theme">
-                            <i class="bi bi-sun-fill" id="theme-icon"></i>
-                        </button>
+                        <a class="nav-link px-3" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
