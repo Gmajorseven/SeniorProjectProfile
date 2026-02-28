@@ -13,6 +13,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Theme JS (Prevent Flash) -->
+    <script>
+        (function () {
+            const savedTheme = localStorage.getItem('theme');
+            const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            document.documentElement.setAttribute('data-bs-theme', savedTheme || systemTheme);
+        })();
+    </script>
 </head>
 
 <body>
@@ -22,7 +30,7 @@
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="#">
                 <img src="./media/CNE.png" alt="CNE Logo" height="40" class="me-2">
-                <span class="fw-bold text-dark">CNE</span>
+                <span class="fw-bold">CNE</span>
             </a>
             <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav">
@@ -41,6 +49,11 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link px-3 text-primary-color fw-bold" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item ps-lg-3">
+                        <button class="btn btn-link nav-link px-2" id="theme-toggle" title="Toggle theme">
+                            <i class="bi bi-sun-fill" id="theme-icon"></i>
+                        </button>
                     </li>
                 </ul>
             </div>
@@ -132,7 +145,7 @@
             <h3 class="section-title fade-in">Contact Us</h3>
             <div class="row justify-content-center mt-5">
                 <div class="col-md-6 fade-in">
-                    <div class="card card-profile p-5" style="background: rgba(255, 255, 255, 0.95);">
+                    <div class="card card-profile p-5">
                         <h5 class="mb-4">Get in Touch</h5>
                         <div class="row g-4 text-start">
                             <div class="col-sm-6">
@@ -192,6 +205,41 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Theme Switcher Logic -->
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeIcon = document.getElementById('theme-icon');
+        const htmlElement = document.documentElement;
+
+        function updateIcon(theme) {
+            if (theme === 'dark') {
+                themeIcon.classList.replace('bi-sun-fill', 'bi-moon-stars-fill');
+            } else {
+                themeIcon.classList.replace('bi-moon-stars-fill', 'bi-sun-fill');
+            }
+        }
+
+        // Initialize icon
+        updateIcon(htmlElement.getAttribute('data-bs-theme'));
+
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = htmlElement.getAttribute('data-bs-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+
+            htmlElement.setAttribute('data-bs-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateIcon(newTheme);
+        });
+
+        // Sync with system changes if no manual preference is set
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+            if (!localStorage.getItem('theme')) {
+                const newTheme = e.matches ? 'dark' : 'light';
+                htmlElement.setAttribute('data-bs-theme', newTheme);
+                updateIcon(newTheme);
+            }
+        });
+    </script>
 </body>
 
 </html>

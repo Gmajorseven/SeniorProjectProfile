@@ -11,6 +11,51 @@
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+[data-bs-theme="dark"] {
+    --dark-color: #f8f9fa;
+    --light-bg: #121212;
+    --glass-bg: rgba(30, 30, 30, 0.85);
+    --primary-light: rgba(247, 147, 26, 0.15);
+}
+
+[data-bs-theme="dark"] .custom-navbar {
+    background: rgba(18, 18, 18, 0.8) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+[data-bs-theme="dark"] .hero-section {
+    background: linear-gradient(135deg, #121212 0%, #1a1a1a 100%);
+    border-bottom: 1px solid var(--primary-light);
+}
+
+[data-bs-theme="dark"] .bg-light {
+    background-color: #1a1a1a !important;
+}
+
+[data-bs-theme="dark"] footer {
+    background-color: #121212;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+[data-bs-theme="dark"] .card-profile {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+[data-bs-theme="dark"] .profile-img {
+    border-color: #1e1e1e;
+}
+
+[data-bs-theme="dark"] .form-control {
+    background-color: #2a2a2a;
+    border-color: #333;
+    color: #fff;
+}
+
+[data-bs-theme="dark"] .form-control:focus {
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
 .text-primary-color {
     color: var(--primary-color) !important;
 }
