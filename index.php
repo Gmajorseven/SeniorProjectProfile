@@ -67,7 +67,8 @@
                 <img src="./media/logo-Rajabhat.png" alt="UBRU Logo" style="height: 80px;">
                 <img src="./media/CNE.png" alt="CNE Logo" style="height: 80px;">
             </div>
-            <h1 class="project-title-en">A Simulation of the Lightning Network Environment for the Study of Payment Routing and Fraud Prevention</h1>
+            <h1 class="project-title-en">A Simulation of the Lightning Network Environment for the Study of Payment
+                Routing and Fraud Prevention</h1>
             <h2 class="project-title-th">
                 การจำลองสภาพแวดล้อมไลท์นิงเน็ตเวิร์คเพื่อศึกษาเส้นทางการชำระเงินและการป้องกันการทุจริต</h2>
             <p class="lead text-muted mb-4">Computer Network Engineering Program, Faculty of Industrial Technology,
@@ -112,7 +113,7 @@
                     <div class="card card-profile p-4">
                         <span class="teacher-label">Primary Advisor</span>
                         <img src="./media/primary-advisor.jpeg" alt="Teacher 1" class="profile-img">
-                        <h4 class="h5 mb-1">ผู้ช่วยศาสตราจารย์ บริบูรณ์ ดีกา</h4>
+                        <h4 class="h5 mb-1">ผู้ช่วยศาสตราจารย์บริบูรณ์ ดีกา</h4>
                         <p class="text-muted small">Faculty of Industrial Technology</p>
                     </div>
                 </div>
@@ -121,7 +122,7 @@
                     <div class="card card-profile p-4">
                         <span class="teacher-label">Co-Advisor</span>
                         <img src="./media/co-advisor.jpeg" alt="Teacher 2" class="profile-img">
-                        <h4 class="h5 mb-1">ผู้ช่วยศาสตราจารย์ สุรเจตน์ อ่อนฤทธิ์</h4>
+                        <h4 class="h5 mb-1">ผู้ช่วยศาสตราจารย์สุรเจตน์ อ่อนฤทธิ์</h4>
                         <p class="text-muted small">Faculty of Industrial Technology</p>
                     </div>
                 </div>
@@ -130,7 +131,7 @@
                     <div class="card card-profile p-4">
                         <span class="teacher-label">Coordinate Advisor</span>
                         <img src="./media/coordinate-advisor.jpeg" alt="Teacher 3" class="profile-img">
-                        <h4 class="h5 mb-1">ผู้ช่วยศาสตราจารย์ อรอุมา เนียมหอม</h4>
+                        <h4 class="h5 mb-1">ผู้ช่วยศาสตราจารย์อรอุมา เนียมหอม</h4>
                         <p class="text-muted small">Faculty of Industrial Technology</p>
                     </div>
                 </div>
