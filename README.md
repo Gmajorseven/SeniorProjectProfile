@@ -3,7 +3,7 @@
 A professional landing page for a senior project at **Ubon Ratchathani Rajabhat University (UBRU)**.
 
 ## Project Titles
-- **EN:** SIMULATION A LIGHTNING NETWORK ENVIRONMENT TO STUDY PAYMENT ROUTING AND FRAUD PREVENTION MECHANISMS
+- **EN:** A Simulation of the Lightning Network Environment for the Study of Payment Routing and Fraud Prevention
 - **TH:** การจำลองสภาพแวดล้อมไลท์นิงเน็ตเวิร์คเพื่อศึกษาเส้นทางการชำระเงินและการป้องกันการทุจริต
 
 ## Project Team
