@@ -29,7 +29,7 @@
     <nav class="navbar navbar-expand-lg navbar-light sticky-top custom-navbar">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="http://com-tech.ubru.ac.th/">
-                <img src="./media/CNE.png" alt="CNE Logo" height="40" class="me-2">
+                <img src="./media/cne.png" alt="CNE Logo" height="40" class="me-2">
                 <span class="fw-bold">CNE</span>
             </a>
             <div class="d-flex align-items-center ms-auto">
@@ -65,7 +65,7 @@
         <div class="container fade-in">
             <div class="mb-4">
                 <img src="./media/logo-Rajabhat.png" alt="UBRU Logo" style="height: 80px;">
-                <img src="./media/CNE.png" alt="CNE Logo" style="height: 80px;">
+                <img src="./media/cne.png" alt="CNE Logo" style="height: 80px;">
             </div>
             <h1 class="project-title-en">A Simulation of the Lightning Network Environment for the Study of Payment
                 Routing and Fraud Prevention</h1>
