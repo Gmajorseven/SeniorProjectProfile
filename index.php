@@ -28,7 +28,7 @@
     <!-- Sticky Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light sticky-top custom-navbar">
         <div class="container">
-            <a class="navbar-brand d-flex align-items-center" href="#">
+            <a class="navbar-brand d-flex align-items-center" href="http://com-tech.ubru.ac.th/">
                 <img src="./media/CNE.png" alt="CNE Logo" height="40" class="me-2">
                 <span class="fw-bold">CNE</span>
             </a>
