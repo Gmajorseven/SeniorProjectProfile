@@ -72,7 +72,7 @@
                 <a href="https://github.com/Gmajorseven/research" class="btn btn-primary-custom">
                     <i class="bi bi-github me-2"></i> GitHub Repository
                 </a>
-                <a href="#" class="btn btn-outline-danger-custom">
+                <a href="./media/README.pdf" class="btn btn-outline-danger-custom">
                     <i class="bi bi-file-earmark-pdf me-2"></i> Download Manual
                 </a>
             </div>
